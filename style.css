@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+.container{
+    max-width: 100vh;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #d344ff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formul{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+input{
+    width: 100%;
+    display: block; 
+    margin: 1rem auto; 
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button{
+    color: white;
+    background-color: rgb(79, 13, 141);
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 40%;
+    padding: 1rem;
+}
+
+button:hover{
+    color: #d344ff;
+    background-color: white;
+    font-weight: bold;
+}
